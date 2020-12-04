@@ -1,0 +1,32 @@
+{
+  "name": "tailwind-skeleton",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/index.js",
+  "dependencies": {
+    "autoprefixer": "^10.0.4",
+    "husky": "^4.3.0",
+    "postcss": "^8.1.14",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-nesting": "^7.0.1",
+    "postcss-preset-env": "^6.7.0",
+    "prettier": "^2.2.1",
+    "pretty-quick": "^3.1.0",
+    "stylelint": "^13.8.0",
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss": "^2.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node ./src/index"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
